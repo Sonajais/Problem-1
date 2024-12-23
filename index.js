@@ -1,9 +1,8 @@
 let name="Amolya Sharma";
-let count=0;
-for (let i=0; i<name.length,i++)(
+let count={};
+for (let i=0; i<name.length; i++){
   let(char=name[i].toLowerCase();
-  if(char.match(/[a-z]){
-                if(count[char]){
+  if(count[char]){
                 count[char]++;
   }
 else{
@@ -12,6 +11,6 @@ else{
 }
 }
 for(let char in count){
-  console.log('$(char):$(count[char]}');
+  console.log($(char):$(count[char]}');
 }
                 
